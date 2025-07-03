@@ -1,0 +1,33 @@
+{
+    "name": "praisethedevil/api-client-comments-service",
+    "description": "Api client implementation for some abstract API comments service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Praisethedevil\\ApiClientTask\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Praisethedevil\\ApiClientTask\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stanislav Nagornov",
+            "email": "stas.nagornov200@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/psr7": "^2.7",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.2",
+        "friendsofphp/php-cs-fixer": "^3.76",
+        "vimeo/psalm": ">=6.4,<6.5",
+        "psalm/plugin-phpunit": "^0.19.3"
+    }
+}
